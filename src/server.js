@@ -8,6 +8,9 @@ const db = require("./db");
 
 const app = express();
 
-app.get("/tagged/:paymentId", function (request, response) {
+app.get("/tagged/:paymentId", function (request, response) {    
+    console.log(paymentId);
 
 });
+
+module.exports = app;
